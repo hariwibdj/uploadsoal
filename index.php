@@ -38,12 +38,13 @@ if(isset($_SESSION['username'])){ // Jika session username ada berarti dia sudah
     }
 
     .form-signin {
-        max-width: 330px;
+        max-width: 430px;
         padding: 15px;
         margin: 0 auto;
     }
     .form-signin .form-signin-heading{
         margin-bottom: 10px;
+        text-align: center;
     }
     .form-signin .form-control {
         position: relative;
